@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_KEY = '165ed5defc4502d6f8a7ac7b85d0ab1f'
+const API_KEY = process.env.MOVIE_API_KEY
 
 const apiBaseUrl = `https://api.themoviedb.org/3`
 
